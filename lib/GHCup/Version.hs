@@ -29,7 +29,7 @@ import qualified Data.Text                     as T
 -- 'https://www.haskell.org/ghcup/exp/ghcup-<ver>.yaml' with some newlines added.
 ghcupURL :: URI
 -- ghcupURL = [uri|https://www.haskell.org/ghcup/data/ghcup-0.0.6.yaml|]
-ghcupURL = [uri|https://github.com/EMQ-YangM/ghcup/blob/master/data/metadata/ghcup-0.0.6.yaml|]
+ghcupURL = [uri|https://raw.githubusercontent.com/EMQ-YangM/ghcup/master/data/metadata/ghcup-0.0.6.yaml|]
 
 -- | The current ghcup version.
 ghcUpVer :: PVP
