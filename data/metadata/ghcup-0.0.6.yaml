@@ -2542,6 +2542,22 @@ ghcupDownloads:
             unknown_versioning:
               dlUri: https://downloads.haskell.org/ghcup/unofficial-bindists/haskell-language-server/1.4.0/haskell-language-server-linux-armv7-1.4.0.tar.gz
               dlHash: 4a921fbca06b02f3b1c0930cec5e65e9362b603e7715680ec7b150f18bd703d6
+    1.4.2:
+      viTags:
+        - Recommended
+        - Latest
+      viChangeLog: https://github.com/haskell/haskell-language-server/blob/master/ChangeLog.md#140
+      viPostInstall: *hls-post-install
+      viSourceDL:
+        dlUri: https://downloads.haskell.org/ghcup/src/haskell-language-server/1.4.0/haskell-language-server-1.4.0.tar.gz
+        dlSubdir: haskell-language-server-1.4.0
+        dlHash: c5d7dbf7fae9aa3ed2c1184b49e82d8ac623ca786494ef6602cfe11735d28db0
+      viArch:
+        A_64:
+          Linux_UnknownLinux:
+            unknown_versioning: &hls-142-64
+              dlUri: https://github.com/EMQ-YangM/haskell-language-server/releases/download/1.4.2/haskell-language-server-Linux-1.4.2.tar.gz
+              dlHash: e1c13a311fb68fc90294bd5a693c4b8b202b4941d01b01743b0f6afa466a2464         
   Stack:
     2.5.1:
       viTags:
