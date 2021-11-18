@@ -2734,6 +2734,22 @@ ghcupDownloads:
             unknown_versioning: &hls-1416-64
               dlUri: https://github.com/EMQ-YangM/haskell-language-server/releases/download/1.4.16/haskell-language-server-Linux-1.4.16.tar.gz
               dlHash: 305418e375b30de2ef003f97de07090fdecd66508bf2493934e24e988bdf6b59
+    1.5.0:
+      viTags:
+        - Recommended
+        - Latest
+      viChangeLog: https://github.com/haskell/haskell-language-server/blob/master/ChangeLog.md#140
+      viPostInstall: *hls-post-install
+      viSourceDL:
+        dlUri: https://downloads.haskell.org/ghcup/src/haskell-language-server/1.5.0/haskell-language-server-1.5.0.tar.gz
+        dlSubdir: haskell-language-server-1.5.0
+        dlHash: c5d7dbf7fae9aa3ed2c1184b49e82d8ac623ca786494ef6602cfe11735d28db0
+      viArch:
+        A_64:
+          Linux_UnknownLinux:
+            unknown_versioning: &hls-150-64
+              dlUri: https://github.com/EMQ-YangM/haskell-language-server/releases/download/1.5.0/haskell-language-server-Linux-1.5.0.tar.gz
+              dlHash: 7fcbcc38df066789b0575cec4b59be2f29aa192c01a199c4892b0f3e444ecf9c
 
   Stack:
     2.5.1:
