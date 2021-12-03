@@ -2791,7 +2791,7 @@ ghcupDownloads:
       viChangeLog: https://github.com/haskell/haskell-language-server/blob/master/ChangeLog.md#140
       viPostInstall: *hls-post-install
       viSourceDL:
-        dlUri: https://downloads.haskell.org/ghcup/src/haskell-language-server/1.5.4/haskell-language-server-1.5.4.tar.gz
+        dlUri: https://downloads.haskell.org/ghcup/src/haskell-language-server/1.5.5/haskell-language-server-1.5.5.tar.gz
         dlSubdir: haskell-language-server-1.5.5
         dlHash: c5d7dbf7fae9aa3ed2c1184b49e82d8ac623ca786494ef6602cfe11735d28db0
       viArch:
